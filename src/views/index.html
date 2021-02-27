@@ -1,0 +1,12 @@
+{% extends "layout.html"%}
+{% block content %}
+    <h1>Hola {{persona}} estoy renderizado</h1>
+    <ul>
+        {% for item in listado %}
+             <li>{{item.name}}</li>
+        {% endfor %}
+    </ul>
+   
+
+{% endblock  %}
+   
